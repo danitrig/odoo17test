@@ -5,9 +5,9 @@ import string
 from odoo import fields, models
 
 class ResPartner(models.Model):
-    
+
     _inherit = 'res.partner'
 
-    phone2 = fields.char (
+    telefonodos = fields.Char(
         string = "Phone Work"
     )
